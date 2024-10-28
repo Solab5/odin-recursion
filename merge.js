@@ -1,5 +1,6 @@
 // function to sort and merge
 function mergeSort(arr) {
+    console.log("This was printed recursively");
     if (arr.length <= 1) {
         return arr;
     }
